@@ -1,6 +1,6 @@
 package com.citizenscafe.springboot.model;
 
-import java.sql.Timestamp;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
@@ -28,14 +28,14 @@ public class Reservation
 	private int partySize;
 	
 	@Column(name = "time")
-	private Timestamp time;
+	private LocalDateTime time;
 	
 	
 	
 	// constructors
 	public Reservation(){}
 	
-	public Reservation(String name, String phoneNumber, int partySize, Timestamp time) {
+	public Reservation(String name, String phoneNumber, int partySize, LocalDateTime time) {
 		super();
 		this.name = name;
 		this.phoneNumber = phoneNumber;
@@ -70,10 +70,10 @@ public class Reservation
 	public void setPartySize(int partySize) {
 		this.partySize = partySize;
 	}
-	public Timestamp getTime() {
+	public LocalDateTime getTime() {
 		return time;
 	}
-	public void setTime(Timestamp time) {
+	public void setTime(LocalDateTime time) {
 		this.time = time;
 	}
 	
