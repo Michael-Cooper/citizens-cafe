@@ -13,3 +13,12 @@ demo project for a table-booking app
 <p>I wanted to make the list sorted by time(datetime), so that the top of the list was the next reservation scheduled to be seated.  I also wanted a date-time picker for setting the time, but could not get that implemented in time.</p>
 
 
+![image](https://github.com/Michael-Cooper/citizens-cafe/assets/19694870/98d49e29-81ec-4b85-b514-655740d7799b)
+
+
+![image](https://github.com/Michael-Cooper/citizens-cafe/assets/19694870/859b99ec-c471-4c26-9cbf-0570ff9d74bb)
+
+
+![image](https://github.com/Michael-Cooper/citizens-cafe/assets/19694870/705db633-f3ba-466f-96c8-1cc402442966)
+
+
